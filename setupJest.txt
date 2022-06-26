@@ -1,0 +1,8 @@
+steps:
+
+1. npm i jest --save-dev
+2. create folder __tests__
+3. add in package.json
+	"scripts": {
+    			"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+               }
